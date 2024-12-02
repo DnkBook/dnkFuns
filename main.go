@@ -9,7 +9,7 @@ import (
 
 func main() {
 	customFormat := "2006-01-02_150405"
-	root := "/home/enma/coding/gitHub/dnkFuns/dnkBook/2024"
+	root := "/home/enma/code/gitHub/dnkFuns/dnkBook/2024"
 
 	err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
